@@ -7,12 +7,11 @@ body {
     font-family: Georgia, Times, serif;
     line-height: 1.4em;
     margin: 0px;
-    padding-top: 100px;
     }
 
 .wrapper {
     width: 940px;
-    margin: 20px auto 20px auto;
+    margin: 0px auto 0px auto;
     background-color: #334568;
     }
 
@@ -60,7 +59,7 @@ ul {
 
 #main h2 {
     display: block;
-    padding-top: 28%;
+    padding-top: 20%;
     font-size: 60px;
     text-align: center;
     color: #ffffff;
@@ -83,7 +82,7 @@ ul {
     border-radius: 5px;
     outline: none;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
-    margin-bottom: 50%;
+    margin-bottom: 55%;
 }
 
 .search-field button {
@@ -96,7 +95,7 @@ ul {
     cursor: pointer;
     margin-left: 10px;
     float: right;
-    margin-bottom: 50%;
+    margin-bottom: 55%;
 }
 
 /* Footer */
@@ -105,6 +104,6 @@ ul {
 	clear: both;
 	color: #ffffff;
 	background-color: #30313E;
-	height: 40px;
+	height: 45px;
     position: relative;
 }
