@@ -1,185 +1,27 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Excercise 6</title>
-        
-		<style type="text/css" rel="stylesheet" href="index2.css">
-            #header, .courses, #footer, #sidebar, #nav, .article, figure, figcaption {
-    display: block;}
-body {
-    color: #666666;
-    background-color: #334568;
-    background-position: center;
-    font-family: Georgia, Times, serif;
-    line-height: 1.4em;
-    margin: 0px;}
-.wrapper {
-    width: 940px;
-    margin: 20px auto 20px auto;
-    border: 2px solid #000000;
-    background-color: #ffffff;}
-#header {
-    height: 160px;
-    background-image: url(images/header.jpg);}
-h1 {
-    text-indent: -9999px;
-    width: 940px;
-    height: 130px;
-    margin: 0px;}
-#footer {
-    clear: both;
-    color: #ffffff;
-    background-color: #aeaca8;
-    height: 30px;}
-.courses {
-    float: left;
-    width: 659px;
-    border-right: 1px solid #eeeeee;}
-.article {
-    clear: both;
-    overflow: auto;
-    width: 100%;}
-.hgroup {
-    margin-top: 40px;}
-figure {
-    float: left;
-    width: 290px;
-    height: 220px;
-    padding: 5px;
-    margin: 20px;
-    border: 1px solid #eeeeee;}
-figcaption {
-    font-size: 90%;
-    text-align: left;}
-#sidebar {
-    width: 230px;
-    float: left;
-    padding: 0px 0px 0px 20px;}
-#sidebar section a {
-    display: block;
-    padding: 10px;
-    border-bottom: 1px solid #eeeeee;}
-#sidebar section a:hover {
-    color: #985d6a;
-    background-color: #efefef;}
-a {
-    color: #de6581;
-    text-decoration: none;}
-h1, h2, h3 {
-    font-weight: normal;}
-h2 {
-    margin: 10px 0px 5px 0px;
-    padding: 0px;}
-h3 {
-    margin: 0px 0px 10px 0px;
-    color: #de6581;}
-#sidebar h2 {
-    padding: 30px 0px 10px 0px;
-    color: #de6581;}
-#footer {
-    font-size: 80%;
-    padding: 7px 0px 0px 20px;}
-
-
-/*    
-Instructions: Write some CSS to create horizontal navigation for the webpage. An example result is shown in exercise7result.jpg  You can try replicating the menu shown in the image or customize your own menu styles. 
-*/
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 5;
-    overflow: hidden;
-    background-color: #aeaca8;
-    height: 40px}
-li {
-    float: left;}
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 10px 20px;
-    text-decoration: none;}
-li a:hover {
-    background-color: #969490;}
-
-ul {
-    display: block;
-    list-style-type: none;
-    margin: 0;
-    padding: 10px;
-    overflow: hidden;
-    background-color: #30313E;
-    height: 50px;
-}
-        </style>
+		<title>Home Page</title>
+        <link href="css/index2.css" type="text/css" rel="stylesheet">
         
 	</head>
 	<body>
 		<div class="wrapper">
-			<div id="header">
-				<h1>Yoko's Kitchen</h1>
+			<h1>ScammerJammer</h1>
 				<div id="nav">
-                    <!--
-                    Instructions: Add a list using the <ul> element and the <li> element to create a link for each menu item. Set the href value to empty. Normally you would put the relative path of page you are linking to, but we are creating a placeholder.
-
-                    For example:
-
-					<ul>
-						<li><a href="">home</a></li>
-					</ul>
-                    -->
                     <ul>
                         <li><a href="">Home</a></li>
-                        <li><a href="">Classes</a></li>
-                        <li><a href="">Catering</a></li>
-                        <li><a href="">About</a></li>
-                        <li><a href="">Contact</a></li>
+                        <li style="float:right"><a href="">Account</a></li>
                     </ul>
 				</div>
-			</div>
-			<div class="courses">
-				<div class="article">
-					<figure>
-						<img src="images/bok-choi.jpg" alt="Bok Choi" />
-						<figcaption>Bok Choi</figcaption>
-					</figure>
-					<div class="hgroup">
-						<h2>Japanese Vegetarian</h2>
-						<h3>Five week course in London</h3>
-					</div>
-					<p>A five week introduction to traditional Japanese vegetarian meals, tefaching you a selection of rice and noodle dishes.</p>
-				</div>    
-				<div class="article">
-					<figure>
-						<img src="images/teriyaki.jpg" alt="Teriyaki sauce" />
-						<figcaption>Teriyaki Sauce</figcaption>
-					</figure>
-					<div class="hgroup">
-						<h2>Sauces Masterclass</h2>
-						<h3>One day workshop</h3>
-					</div>
-					<p>An intensive one-day course looking at how to create the most delicious sauces for use in a range of Japanese cookery.</p>
-				</div>    
-			</div>
-			<div id="sidebar">
-				<div class="popular-recipes">
-					<h2>Popular Recipes</h2>
-					<a href="">Yakitori (grilled chicken)</a>
-					<a href="">Tsukune (minced chicken patties)</a>
-					<a href="">Okonomiyaki (savory pancakes)</a>
-					<a href="">Mizutaki (chicken stew)</a>
-				</div>
-				<div class="contact-details">
-					<h2>Contact</h2>
-					<p>Yoko's Kitchen<br />
-						27 Redchurch Street<br />
-						Shoreditch<br />
-						London E2 7DP</p>
-				</div>
-			</div>
-			<div id="footer">
-				&copy; 2011 Yoko's Kitchen
-			</div>
+                <h2>ScammerJammer</h2>
+                <div class="search-field">
+                    <input type="number" placeholder="Search a phone number...">
+                    <button>Search</button>
+                </div>
 		</div><!-- .wrapper -->
+        <div id="footer">
+            &copy; 2023 ScammerJammer
+        </div>
 	</body>
 </html>
