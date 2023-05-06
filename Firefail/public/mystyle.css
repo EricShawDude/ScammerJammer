@@ -1,0 +1,190 @@
+
+
+/* menu bar */
+
+
+position: absolute;
+width: 1548px;
+height: 135px;
+left: -61px;
+top: 0px;
+
+background: #1F2A3F;
+
+
+
+#ScammerJammer{
+/* ScammerJammer */
+
+
+position: absolute;
+width: 655px;
+height: 96px;
+left: calc(50% - 655px/2 + 0.5px);
+top: calc(50% - 96px/2 - 164px);
+
+font-family: 'Inria Serif';
+font-style: normal;
+font-weight: 400;
+font-size: 80px;
+line-height: 96px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+
+
+
+/* Account */
+
+#Account{
+position: absolute;
+width: 189px;
+height: 58px;
+left: 1165px;
+top: 38px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 58px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+
+
+/* SJ 
+
+
+position: absolute;
+width: 59px;
+height: 69px;
+left: 61px;
+top: 37px;
+
+font-family: 'JejuGothic';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 69px;
+
+color: #E00000;
+
+*/
+
+/* Home */
+
+
+position: absolute;
+width: 134px;
+height: 58px;
+left: 184px;
+top: 41px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 58px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+
+
+/* search bar */
+
+
+position: absolute;
+width: 869px;
+height: 111px;
+left: 277px;
+top: 481px;
+
+border-radius: 10px;
+
+
+/* report button */
+
+
+position: absolute;
+width: 384px;
+height: 88px;
+left: calc(50% - 384px/2 - 226px);
+top: calc(50% - 88px/2 + 150px);
+
+background: #FF0707;
+border-radius: 10px;
+
+
+/* Report */
+
+
+position: absolute;
+width: 162px;
+height: 58px;
+left: calc(50% - 162px/2 - 226px);
+top: calc(50% - 58px/2 + 151px);
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 48px;
+line-height: 58px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+
+
+/* search button */
+
+
+position: absolute;
+width: 384px;
+height: 88px;
+left: calc(50% - 384px/2 + 210px);
+top: calc(50% - 88px/2 + 150px);
+
+background: #FFFFFF;
+border-radius: 10px;
+
+
+/* Search */
+
+
+position: absolute;
+width: 167px;
+height: 58px;
+left: calc(50% - 167px/2 + 201.5px);
+top: calc(50% - 58px/2 + 151px);
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 48px;
+line-height: 58px;
+/* identical to box height */
+
+
+color: #252525;
+
+
+
+/* Vector */
+
+
+position: absolute;
+left: 70.97%;
+right: 26.53%;
+top: 62.6%;
+bottom: 33.29%;
+
+background: #000000;
+border: 3px solid #000000;
