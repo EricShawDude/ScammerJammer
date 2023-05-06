@@ -15,35 +15,42 @@ body {
     background-color: #334568;
     }
 
-#container {
-        width: 1000px;
-        background-color: white;
-        clear: both;
-        position: relative;
-        bottom: 20px;
-    }
+p.detail { 
+    color:#ffffff;
+    font-weight:bold;
+    font-size:20 
+}
+
+span.name { 
+    color:#FF0000;
+    font-weight:bold;
+    font-size:20 
+}
 
 /* Navigation Bar */
 
 ul {
     list-style-type: none;
-    margin: 0;
     padding: 5;
     overflow: hidden;
     background-color: #aeaca8;
-    height: 40px}
+    height: 40px;
+    }
 
-li {float: left;}
+li {float: left;
+    }
 
 li a {
     display: block;
     color: white;
     text-align: center;
     padding: 10px 20px;
-    text-decoration: none;}
+    text-decoration: none;
+    }
 
 li a:hover {
-    background-color: #505167;}
+    background-color: #505167;
+    }
 
 ul {
     display: block;
@@ -53,17 +60,7 @@ ul {
     overflow: hidden;
     background-color: #30313E;
     height: 50px;
-}
-
-/* Main title on home page */
-
-#main h2 {
-    display: block;
-    padding-top: 20%;
-    font-size: 60px;
-    text-align: center;
-    color: #ffffff;
-}
+    }
 
 /* Search bar */
 
@@ -82,11 +79,10 @@ ul {
     border-radius: 5px;
     outline: none;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
-    margin-bottom: 55%;
 }
 
 .search-field button {
-    background-color: #dd5273;
+    background-color: #e3315a;
     color: #ffffff;
     border: none;
     padding: 10px 20px;
@@ -95,7 +91,43 @@ ul {
     cursor: pointer;
     margin-left: 10px;
     float: right;
-    margin-bottom: 55%;
+}
+
+/* Data */
+
+#data h2 {
+    margin-left: 35%;
+    margin-top: 5%;
+    color: #ffffff;
+    font-size: 28px;
+}
+
+#not-a-scam-message p {
+    text-align: center;
+    font-size: 25px;
+}
+
+/* Report them? */
+
+#question p {
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#report button {
+    background-color: #e3315a;
+    color: #ffffff;
+    border: none;
+    padding: 15px 50px;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+    float: right;
+    margin-right: 42%;
+    margin-bottom: 2%;
 }
 
 /* Footer */
