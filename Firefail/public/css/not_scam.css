@@ -27,30 +27,43 @@ span.name {
     font-size:20 
 }
 
+/* Logo */
+
+#nav ul img{
+    width: 70px;
+    height: 50px;
+    float: left;
+}
+
 /* Navigation Bar */
 
 ul {
     list-style-type: none;
+    margin: 0;
     padding: 5;
     overflow: hidden;
     background-color: #aeaca8;
-    height: 40px;
-    }
+    height: 40px}
 
-li {float: left;
-    }
+li {float: left;}
 
 li a {
-    display: block;
+    display: flex;
     color: white;
     text-align: center;
-    padding: 10px 20px;
+    padding: 15px 50px;
     text-decoration: none;
-    }
+    border-radius: 10px;
+    margin-top: -5px;
+}
 
 li a:hover {
     background-color: #505167;
-    }
+}
+
+li a:active {
+    background-color:#1e1e28;
+}
 
 ul {
     display: block;
@@ -60,7 +73,31 @@ ul {
     overflow: hidden;
     background-color: #30313E;
     height: 50px;
-    }
+}
+
+/* Login Button */
+
+#nav ul button {
+    color: white;
+    background-color: #23232d;
+    border: none;
+    padding: 15px 50px;
+    font-size: 16px;
+    margin-top: 1px;
+    margin-right: 30px; 
+    float:right;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#nav ul button:hover {
+    background-color:#505167;
+}
+
+#nav ul button:active {
+    background-color:#1e1e28;
+}
 
 /* Search bar */
 
