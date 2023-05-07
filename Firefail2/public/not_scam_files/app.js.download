@@ -155,10 +155,6 @@ function search(){
     
     }
 }
-function reportdebug(num, message = "😭"){
-    addDocLinear(num, message);
-    return;
-}
 function reportinitial(){
     document.getElementById("button_report").innerHTML = "Reported 🗸";
     document.getElementById("button_report").disabled = true;
