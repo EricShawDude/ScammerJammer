@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
+    <script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+
+    <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.21.0/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.21.0/firebase-analytics.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+        apiKey: "AIzaSyAYD-3X8GLY7vFcP1GgIXLb9A1r06Uq4wk",
+        authDomain: "protoscammerjammer2.firebaseapp.com",
+        projectId: "protoscammerjammer2",
+        storageBucket: "protoscammerjammer2.appspot.com",
+        messagingSenderId: "733804422541",
+        appId: "1:733804422541:web:ae25918aa37c04ce2889c4",
+        measurementId: "G-C1VC22LJMB"
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+    firebase.initializeApp(firebaseConfig);
+    var db = firebase.firestore();
+    </script>
+
+    <script src="app.js" defer></script>
+</head>
+<body>
+    
+    <h1> Shawsome fail</h1>
+
+    <section id = "whenSignedOut">
+        <button id="signInBtn">Sign in with Googshit</button>
+    </section>
+
+    <section id="whenSignedIn" hidden = "true">
+        Congrats dumbass
+        <div id ="userDetails"></div>
+
+        <button id="signOutBtn">Get out</button>
+    </section>
+
+    <form id="phoneform">
+        <input type="text" name="name">
+        <button> Submit Gerald </button>
+    </form>
+
+    <form id="searchform">
+        <button>Search Gerald</button>
+    </form>
+
+    <form id="commentform">
+        <input type="text" name="name" placeholder = "type a comment!">
+    </form>
+
+    <div class = "content">
+        <ul id ="numlist"></ul>
+    </div>
+
+
+</body>
+</html>
