@@ -53,6 +53,7 @@ function addDocLinear(num, comment = 'failure!'){
             //if the number exists, do stuff to original data
             if (doc.data().number == num){
                 gaming = false;
+                console.log("gaming no more")
                 id = doc.id;
                 var r = doc.data().reports + 1;
                 console.log(r);
@@ -72,30 +73,36 @@ function addDocLinear(num, comment = 'failure!'){
                     comments: newcomments
                   }).then(function() {
                     console.log("Frank is dead.");
+                    return;
                   });
-                return;
+                
             }      
         }); 
 
         
-
+        if(gaming){
+            addDocNew(num, comment);
+        }
         
     })
     
     //if then number doesn't exist then add to database
-    if(gaming){
-        const uid = db.collection("tmp").doc().id
-        db.collection("numbers").add({
-            number: num,
-            reports: 1,
-            times : [firebase.firestore.Timestamp.fromDate(new Date())],
-            comments: [comment]
-        }).then(function() {
-            console.log("Frank is ALIVE.");
-        });
-        return;
-    }
+    
 
+}
+
+function addDocNew(num, comment = 'failure fail'){
+    console.log("gaming is a go")
+    const uid = db.collection("tmp").doc().id
+    db.collection("numbers").add({
+        number: num,
+        reports: 1,
+        times : [firebase.firestore.Timestamp.fromDate(new Date())],
+        comments: [comment]
+    }).then(function() {
+        console.log("Frank is ALIVE.");
+    });
+    return;
 }
 //USE DOC.DATA() YOU FAILURE
 
