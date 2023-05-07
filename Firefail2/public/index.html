@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>ScammerJammer Home</title>
 
     <script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
     <script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
@@ -37,9 +37,32 @@
     </script>
 
     <script src="app.js" defer></script>
+
+    <title>Home</title>
+        <link href="css/index2.css" type="text/css" rel="stylesheet">
+
 </head>
 <body>
-    
+    <div class="wrapper">
+        <div id="nav">
+            <ul>
+                <img src="images/methacks logo.png" alt="ScammerJammer Logo">
+                <li style="margin-left: 10px; margin-top: 5px;"><a href="index.html">Home</a></li>
+                <button id = 'signInBtn'>Log in</button>
+                <button id = 'signOutBtn'>Log out</button>
+            </ul>
+        </div>
+        <div id="main">
+            <h2 id = "title">ScammerJammer</h2>
+        </div>
+        <div class="search-field">
+            <input id = searchField type="text" placeholder="Search a phone number...">
+            <button id = "button_search" onclick=search()>Search</button>
+        </div>
+        <div id="footer">   
+        </div>
+    </div><!-- .wrapper -->
+    <!--
     <h1> Shawsome fail</h1>
 
     <section id = "whenSignedOut">
@@ -69,6 +92,9 @@
     <div class = "content">
         <ul id ="numlist"></ul>
     </div>
+
+
+    -->
 
 
 </body>
